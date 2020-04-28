@@ -9,7 +9,7 @@ module.exports = {
     sidebarDepth: 2,
     sidebar: [
       {
-        title: "框架介绍",
+        title: "框架介绍12",
         collapsable: false,
         children: ["/guide/", "/guide/theory"],
       },
