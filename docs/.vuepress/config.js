@@ -11,7 +11,7 @@ module.exports = {
       {
         title: "框架介绍12",
         collapsable: false,
-        children: ["/guide/", "/guide/theory"],
+        children: ["/guide/", "/guide/prepare", "/guide/theory"],
       },
       {
         title: "搭建开发环境",
