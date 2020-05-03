@@ -18,11 +18,14 @@ export default {
   },
   props: ["img", "href"],
   created() {
-    var navTopAdHideUntil = localStorage.getItem(this.storageKey);
-    if (!navTopAdHideUntil || Date.now() > navTopAdHideUntil) {
-      this.show = true;
-    } else {
-      this.show = false;
+    if (typeof localStorage !== "undefined") {
+      var navTopAdHideUntil =
+        localStorage && localStorage.getItem(this.storageKey);
+      if (!navTopAdHideUntil || Date.now() > navTopAdHideUntil) {
+        this.show = true;
+      } else {
+        this.show = false;
+      }
     }
   },
   methods: {
@@ -31,7 +34,8 @@ export default {
       window.open(this.href);
     },
     hide() {
-      localStorage.setItem(this.storageKey, Date.now() + 86400 * 7 * 1000);
+      localStorage &&
+        localStorage.setItem(this.storageKey, Date.now() + 86400 * 7 * 1000);
       this.show = false;
     },
   },
