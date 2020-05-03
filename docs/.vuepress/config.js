@@ -1,6 +1,7 @@
 module.exports = {
   title: "大白话Electron",
   description: "Electron入门指南",
+  theme: "../../../theme-wzdxy",
   themeConfig: {
     nav: [
       { text: "首页", link: "/" },
