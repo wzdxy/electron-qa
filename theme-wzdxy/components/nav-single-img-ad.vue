@@ -1,5 +1,5 @@
 <template>
-  <div class="jump" v-if="show">
+  <div class="jump" v-show="show">
     <div class="close" @click="hide">感谢支持作者 , 点我隐藏一周</div>
     <div @click="jump">
       <img :src="this.img" alt="huawei" />
