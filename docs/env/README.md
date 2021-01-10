@@ -12,6 +12,7 @@ Electron 使用 npm 和来安装 , 按照文档和教程操作就行了 , 这里
 
 ```js
 ELECTRON_MIRROR = "https://npm.taobao.org/mirrors/electron/";
+ELECTRON_BUILDER_BINARIES_MIRROR="http://npm.taobao.org/mirrors/electron-builder-binaries";
 ```
 
 `npmrc` 是 NPM 项目的配置文件之一 , 详细信息可以参考 [NPM 官网的说明](https://docs.npmjs.com/configuring-npm/npmrc.html)

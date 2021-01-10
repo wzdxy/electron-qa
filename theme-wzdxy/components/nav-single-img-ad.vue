@@ -34,6 +34,7 @@ export default {
       window.open(this.href);
     },
     hide() {
+      _hmt && _hmt.push(["_trackEvent", "导航广告", "隐藏一周", this.href]);
       localStorage &&
         localStorage.setItem(this.storageKey, Date.now() + 86400 * 7 * 1000);
       this.show = false;

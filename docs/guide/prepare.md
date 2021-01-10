@@ -44,7 +44,7 @@ Electron 是一个非常综合的技术框架 , 在使用 Electron 开发之前�
 
 Node.js 是一个基于 V8 引擎 的 JavaScript 运行时 , 是 Electron 的重要组成部分.
 
-Node.js 和浏览器中的 JavaScript 语法是相同的 , 不同的是 Node.js 一般运行在服务器等环境 (v8 引擎).
+Node.js 和浏览器中的 JavaScript 语法是相同的 , 不同的是 Node.js 一般运行在服务器等环境.
 
 但在 Electron 中 , Node.js 和 浏览器被结合到了一起 (渲染进程) , 即你可以同时使用这两个部分的 API , 如果你仅仅掌握浏览器的部分 , 在开发时会遇到很多困难 , 比如 `模块系统` , `fs` , `path` 等功能.
 
