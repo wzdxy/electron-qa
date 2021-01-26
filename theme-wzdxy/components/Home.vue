@@ -64,6 +64,13 @@
         src="https://www.upyun.com/static/img/%E6%A0%B7%E5%BC%8F%E5%9B%BE.7cf927c.png">
       </a>
     </div>
+    <div class="upyun-invitation" style="text-align: center">
+
+      <a href="https://console.upyun.com/register/?invite=SypefpTJO">
+        <br> 加入又拍云 <br>
+        <img src="https://upyun.wzdxy.com/img/%E5%8F%88%E6%8B%8D%E4%BA%91_logo3.png" alt style="width: 100px;">
+      </a>
+    </div>
   </main>
 </template>
 
